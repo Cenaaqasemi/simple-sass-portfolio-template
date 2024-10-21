@@ -1,0 +1,17 @@
+.support {
+  &__container {
+    gap: 2rem;
+  }
+  &__info{
+    text-align: center;
+  }
+    &__title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+  
+      span {
+        color: var(--primary-color);
+      }
+    }
+}
